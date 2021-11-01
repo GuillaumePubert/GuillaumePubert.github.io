@@ -1,0 +1,149 @@
+
+
+#presentation{
+    display: grid;
+    width: 98%;
+    height: 98%;
+    border: 1px solid black;
+    margin: 1%;
+    background-color:gainsboro;
+}
+
+#photo{
+   
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+#nom{
+    margin-right: 10%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 300%;
+    font-family: Arial, Helvetica, serif;
+    color: darkblue;
+
+}
+#contact{
+    text-align: center;
+    border-left:1px solid black;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin-right: 5%;
+}
+
+#description{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: 10%;
+}
+
+
+#formation,#competence,#experience,#interet{
+    width: 98%;
+    height: 98%;
+    margin: 1%;
+    background-color:gainsboro;
+    
+}
+
+
+#contact p {
+    font-weight: bold;
+    color: darkblue;
+}
+
+.boutton{
+    width: 100%;
+    font-weight: bold;
+}
+.rotate{
+    transform: rotate(-180deg);
+    transition-duration: 500ms;
+    
+}
+
+
+.niveau1{
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+    border: 1px solid black;
+    padding: 1%;
+    
+}
+
+
+.niveau2{
+color: black;
+font-weight: bold;
+margin-bottom: 2%;
+
+}
+.niveau3{
+    font-weight: normal;
+    color: black;
+    
+}
+
+#Formation,#Interet,#Competence{
+    display: flex;
+}
+
+#technologie,#autres,#technique,#softSkills, #langues{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+#lycee{
+    border: 1px solid black;
+}
+
+
+#Experience{
+    display: grid;
+    /* grid-template-columns: 50%,50%;
+    grid-template-rows: 50%,50%; */
+}
+
+/* #service{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#production{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#employé{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#ouvrier{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+
+
+
+
